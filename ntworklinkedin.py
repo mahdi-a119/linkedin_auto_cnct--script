@@ -34,8 +34,8 @@ driver = webdriver.Chrome()
 
 try:
     driver.get("https://www.linkedin.com/login")
-    EMAIL = "s_boudiaf@estin.dz"
-    PASSWORD = "Mehdi@BDF2005"
+    EMAIL = "YOUR EMAIL"
+    PASSWORD = "YOUR PASSWORD"
     driver.find_element(By.ID, "username").send_keys(EMAIL)
     driver.find_element(By.ID, "password").send_keys(PASSWORD)
     driver.find_element(By.ID, "password").send_keys(Keys.RETURN)
